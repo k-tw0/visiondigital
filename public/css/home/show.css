@@ -1,0 +1,113 @@
+.cabezera-show {
+    margin-right: 330px;
+    margin-left: 330px;
+    padding-top: 1.5rem;
+}
+
+.a-noticia-section-show {
+    color: #213f6b;
+    font-weight: bold;
+}
+
+.title-noticia-show {
+    font-family: "Serif Pro Bold";
+    font-size: 44px;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.mini-desc-show {
+    color: black;
+    font-size: 20px;
+}
+
+.box-redaccion {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Ajustar las columnas según necesites */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding-top: 3rem;
+}
+
+.txt-redaction {
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.p-fecha-public-show {
+    color: rgba(70, 70, 70, 0.74);
+    font-size: 14px;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+.desktop-redac {
+    border-radius: 12px;
+    width: 46px;
+    height: 32px;
+    margin-top: 11px;
+    margin-left: 4px;
+}
+
+.bor-radius-redac-img {
+    background-color: #3e527042;
+    border-radius: 30px;
+    height: 55px;
+    width: 55px;
+    margin: auto;
+}
+
+.box-img-and-min-noticias {
+    display: grid;
+    margin-right: 330px;
+    margin-left: 330px;
+    grid-template-columns: 70% 20%; /* Ajustar las columnas según necesites */
+}
+
+.cabezera-show {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+}
+
+.card-dimiuta-noticia {
+    border-top: none;
+}
+
+.box-cards-min-show {
+    padding-left: 2rem;
+}
+
+.group-descriptions-show {
+    margin-right: 330px;
+    margin-left: 330px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.desc-show-not {
+    margin-top: 1rem;
+    border: 1px #35363a1c solid;
+    padding: 1rem;
+    color: black;
+    font-size: 17px;
+}
+.box-min-not {
+    width: 400px;
+    grid-template-columns: 150px 177px; /* Ajustar las columnas según necesites */
+}
+.img-noticia-principal {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.seperation-min-not {
+    border-bottom: 1px #35363a49 solid;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.vistas-leter {
+    font-size: 11px;
+    color: black;
+}

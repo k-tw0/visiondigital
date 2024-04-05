@@ -1,0 +1,474 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+.navbar-menu {
+    background: #ffffff;
+}
+
+.box-new {
+    cursor: pointer;
+}
+
+.menu-content {
+    position: fixed;
+    top: 0;
+    left: -500px;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    z-index: 999;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Esto es para el icono del faro  */
+.navbar-item img {
+    max-height: none;
+}
+
+.navbar-brand,
+.navbar-menu {
+    background: #ffffff;
+}
+
+.navbar {
+    background-color: #fff;
+    min-height: 3.25rem;
+}
+
+.navbar-start {
+    margin-left: 272px;
+}
+
+.navbar-end {
+    margin-right: 310px;
+}
+
+.img-principal {
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.box-nav-footer {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    border-bottom: #3e527075 solid 2px;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+.equis-menu {
+    margin-left: 75%;
+    cursor: pointer;
+}
+.img-principal.menu {
+    margin: auto;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.menu-item.nav-items {
+    font-size: large;
+    padding: 1rem;
+    border-bottom: 1px solid #c2ccdb;
+}
+
+.box-redes {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.box-redes p {
+    padding: 1rem 1rem;
+    font: large;
+}
+
+.box-icons-redes {
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+
+.svg-red {
+    cursor: pointer;
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.button.is-primary:hover {
+    border-color: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px #eee;
+    background-color: #3e5270e3;
+}
+
+.button.is-primary {
+    background: #3e5270;
+    border-color: transparent;
+    font-size: 12px;
+}
+
+.button.is-light {
+    font-size: 12px;
+}
+
+.burguer-svg {
+    width: 19px;
+    height: 18px;
+    align-items: center;
+    cursor: pointer;
+    background-color: #020202;
+    margin: auto;
+    margin-left: 15px;
+}
+.p-svg-menu {
+    margin: auto;
+    padding-left: 6px;
+    margin-right: 8px;
+    font-size: 15px;
+}
+.box-new {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid #ffffff; /* Ajuste de color */
+    margin: 1rem;
+    cursor: pointer;
+    color: #000;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin-left: 38px;
+    transition: width 0.3s ease, background-color 0.3s ease; /* Agregamos la transición para el color de fondo */
+}
+.input {
+    box-shadow: inset 0 0.0625em 0.125em rgba(10, 10, 10, 0.05);
+    width: 0px;
+    margin: auto;
+    font-size: 13px;
+    background-color: #0d0d0e;
+    border: none; /* Eliminado el borde */
+}
+
+.search-svg {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    margin-top: 9px;
+    cursor: pointer;
+}
+
+.box-search {
+    display: grid;
+    grid-template-columns: 30px 100px;
+    margin: auto;
+    border: 1px solid #fff; /* Ajuste de color */
+    border-radius: 10px;
+    transition: width 0.3s ease, background-color 0.3s ease; /* Agregamos la transición para el color de fondo */
+}
+
+.input {
+    background-color: #ffe08a00;
+    color: #000; /* Agregado color de texto */
+}
+
+.input:focus {
+    background-color: #e0dbdb67;
+    border: none; /* Eliminado el borde cuando el input está enfocado */
+}
+
+input:focus {
+    border: none;
+}
+
+.input::placeholder {
+    color: #0e0505;
+}
+
+.box-search:hover,
+.box-search:focus-within {
+    background-color: #e0dbdb67;
+}
+
+.box-search:hover .input,
+.box-search:focus-within .input {
+    width: 130px;
+    border: none;
+}
+
+.link-seperation {
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ul-links.noticia {
+    box-shadow: 0px 8px 11px -5px rgba(0, 0, 0, 0.6);
+}
+
+.li-noticias {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.a-noticias {
+    text-align: center;
+    color: #000;
+    border-radius: 4px;
+    margin: auto;
+    padding: 10px;
+}
+
+.a-noticias.IA {
+    border-bottom: #3e5270 5px solid;
+}
+
+.a-noticias.CIBERSEGURIDAD {
+    border-bottom: #3e5270 5px solid;
+}
+
+.a-noticias.TECNOLOGIA {
+    border-bottom: #3e5270 5px solid;
+}
+
+.a-noticias.ULTIMASNOT {
+    border-bottom: #3e5270 5px solid;
+}
+
+.a-noticias:hover {
+    background-color: #c2ccdb;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.hero-body {
+    text-align: center;
+    padding: 0;
+}
+
+.hero.is-link {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    background-color: #000000;
+    color: #ffffffce;
+    height: 80px;
+    align-items: center;
+}
+
+.box-publicidad {
+    border: 1px solid #ddd;
+    background-color: #ddddddad;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    width: 1241px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.img-y-noticia {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+    background-color: #3e5270;
+    margin-right: 330px;
+    margin-left: 330px;
+}
+
+.box-noticia {
+    margin-left: 15px;
+    font-size: 13px;
+    margin-top: 1rem;
+}
+
+.box-noticia a {
+    display: block;
+    line-height: 1;
+}
+
+.a-noticia-section {
+    color: #fdfdfd;
+    font-weight: bold;
+    width: 30px;
+}
+
+.a-noticia-section:hover,
+.a-noticia-title:hover {
+    color: #3eadf78a;
+}
+
+.a-noticia-title {
+    font-size: 33px;
+    color: #fdfdfd;
+    margin-top: 1rem;
+}
+
+.p-descripcion {
+    font-size: 17px;
+    color: #d6e0f0;
+    margin-top: 1rem;
+}
+
+.p-fecha-y-redaccion {
+    display: grid;
+    grid-template-columns: 150px 1fr; /* El primer elemento tiene un ancho de 100 píxeles */
+    justify-items: start; /* Alinea los elementos a la izquierda */
+    padding-bottom: 2rem;
+}
+
+.p-redaccion {
+    font-size: 11px;
+    color: #ffffff;
+    padding-top: 1rem;
+}
+
+.vistas {
+    font-size: 11px;
+    color: #ffffff;
+}
+
+.color {
+    color: #000;
+    padding-top: 3px;
+}
+
+.card-extra-noticias {
+    display: grid;
+    grid-template-columns: 270px 630px 300px; /* Ancho fijo para cada grid */
+    grid-template-rows: 160px; /* Altura fija para ambos grids */
+    margin-right: 330px;
+    margin-left: 330px;
+    margin-top: 2rem;
+}
+
+.a-min-noticia-section {
+    color: 3e5270;
+    font-weight: bold;
+}
+.a-min-noticia-title {
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+}
+
+.robot-img {
+    margin: auto;
+    width: 100%;
+    height: 400px;
+}
+
+.box-min-noticia {
+    margin-left: 1rem;
+    border-bottom: #c2ccdb9a 1px solid;
+}
+
+.card-dimiuta-noticia {
+    border-top: #c2ccdb9a 1px solid;
+}
+
+.img-min-noticia {
+    width: 100%;
+    height: 100%;
+}
+
+.lo-mas-leido-txt {
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.box-min-not {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.img-article-not {
+    height: 100px;
+    width: 200px;
+}
+
+.card-article-min-noticia {
+    margin-left: 1rem;
+}
+
+.card-article-min-noticia a {
+    display: block;
+}
+
+.descript-min-not {
+    margin-top: 5px;
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 3.5rem;
+    padding: 3rem 0 2rem;
+    background-color: #0d0d0e;
+    color: #d6e0f0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.nuestros-sitios {
+    display: grid;
+    grid-template-columns: 84px 80px 16px 114px 15px 66px;
+    margin-left: 20rem;
+}
+
+.ns-a {
+    color: #d6e0f0;
+}
+
+.publicidad {
+    display: grid;
+    grid-template-columns: 84px 130px;
+    margin-left: 20rem;
+}
+
+.canales-not {
+    display: grid;
+    grid-template-columns: 153px 130px;
+    margin-left: 20rem;
+    margin-bottom: 1.5rem;
+}
+
+.desc-footer {
+    border-top: #e0e4e9 solid 1px;
+    margin-top: 3rem;
+    margin-left: 20rem;
+    margin-right: 17rem;
+}
+.txt-desc-f {
+    color: #f2f4f79c;
+    font-size: 12px;
+    margin-top: 1.5rem;
+}
