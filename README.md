@@ -1,7 +1,7 @@
 
-Inicio de la pagina
+
 <p align="center">
-  <font size="6"><b>Título Centrado y con Letra Grande</b></font>
+  <font size="12"><b>Inicio para usuario no registrado</b></font>
 </p>
 
 ![Inicio](https://github.com/k-tw0/visiondigital/blob/main/Screenshot%202024-04-07%20044815.png)
