@@ -9,6 +9,7 @@
 ![Inicio](https://github.com/k-tw0/visiondigital/blob/main/Screenshot%202024-04-07%20053204.png)
 
 <h2 align="center">Vista rol Administrador</h2>
+
 ![Inicio](https://github.com/k-tw0/visiondigital/blob/main/Screenshot%202024-04-07%20062213.png)
 
 
