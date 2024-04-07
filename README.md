@@ -16,7 +16,7 @@
 
 ![Inicio](https://github.com/k-tw0/visiondigital/blob/main/Screenshot%202024-04-07%20064722.png)
 
-<h2 align="center">Vista Usuario Normal</h2>
+<h2 align="center">Vista Usuario Registrado</h2>
 
 ![Inicio](https://github.com/k-tw0/visiondigital/blob/main/Screenshot%202024-04-07%20084259.png)
 
