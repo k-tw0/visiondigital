@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <font size="16"><b>Inicio para usuario no registrado</b></font>
+ ##  <font size="16"><b>Inicio para usuario no registrado</b></font>
 </p>
 
 ![Inicio](https://github.com/k-tw0/visiondigital/blob/main/Screenshot%202024-04-07%20044815.png)
