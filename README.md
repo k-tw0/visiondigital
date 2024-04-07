@@ -1,8 +1,6 @@
 
 
-<p align="center">
-  <h2>Inicio para usuario no registrado</h2>
-</p>
+<h2 align="center">Inicio para usuario no registrado</h2>
 
 
 ![Inicio](https://github.com/k-tw0/visiondigital/blob/main/Screenshot%202024-04-07%20044815.png)
