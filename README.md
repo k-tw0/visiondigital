@@ -4,7 +4,7 @@
 
 ![Inicio](https://github.com/k-tw0/visiondigital/blob/main/Screenshot%202024-04-07%20044815.png)
 
-<h2 align="center">Click en una no noticia</h2>
+<h2 align="center">Click en una noticia</h2>
 
 ![Inicio](https://github.com/k-tw0/visiondigital/blob/main/Screenshot%202024-04-07%20053204.png)
 
