@@ -1,4 +1,8 @@
+Patrón de diseño MVC(modelo vista controlador) en laravel sobre vision digital en la version 1.1v
 
+-Vista de administrador.
+-Vista usuario no registrado.
+-Vista usuario registrado.
 
 <h2 align="center">Inicio para usuario no registrado</h2>
 
